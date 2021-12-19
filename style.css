@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    align-items: center;
+
+}
+
+h1{
+    color: #000;
+
+}
+ul{
+    display: flex; 
+    margin: 0px;
+    padding: 30px;
+ }
+ a{
+     color: #fff;
+     text-decoration: none;
+ }
+ li{
+     list-style: none;
+     margin-left: 15px;
+ }
+nav{
+     display: flex ;
+     align-items: center;
+     margin-right: 50px;
+ }
+.zag {
+     padding-left: 70px;
+     color: #6600FF;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .background {
+     
+     background-image: url(https://www.mixdecor.ru/upload/iblock/f37/f3729e4df2710c21ddef4e579bb6e54e.jpg);
+     background-size: cover;
+     height: 100vh;
+     background-repeat: no-repeat;
+ }
+
+ .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+ }
+
+form input {
+    margin-top: 15px;
+}
+
+ .padding {
+    padding-left: 60px;
+    
+ }
+
+.services {
+     display: flex;
+     flex-direction: row;
+     margin: 0;
+ }
+ 
+ .services li {
+    border: 2px solid #000;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ p {
+     color: #000;
+ }
+ h2 {
+     padding-top: 40px;
+     
+ }
+.onas {
+    padding-left: 60px;
+    padding-top: 30px;
+}
+ img {
+    height: 130px;
+}
+
+.services h3 {
+    color: mediumslateblue;
+}
+
+.contacts {
+    padding-left: 60px;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+@media (max-width: 900px) {
+    .services {
+        justify-content: center;
+    }
+
+}
+
+.dannie a {
+   color: #000; 
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 17);
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.footer p{
+    font-size: 17px;
+    font-family: Arial;
+    color: rgb(45, 47, 54);
+}
+.services p{
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.background h1{
+    font-size: 50px;
+
+}
+
+.background p {
+    font-size: 20px;
+}
+
+.together {
+    margin: 0px;
+    background-color: rgb(162, 191, 221);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
